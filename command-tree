@@ -1,0 +1,29 @@
+/worldgrow
+├── info
+├── next
+├── border
+├── forcegrow
+│
+├── setsize <size>
+├── setgrowth <amount>
+│
+├── mode
+│   ├── time
+│   └── activity
+│
+├── time
+│   └── set <hour> <minute>
+│
+├── activity
+│   ├── hours <hours>
+│   ├── minutes <minutes>
+│   ├── seconds <seconds>
+│   └── maxspeed <multiplier>
+│
+└── discord
+    ├── on
+    ├── off
+    ├── status
+    ├── test
+    ├── post
+    └── webhook <url>
