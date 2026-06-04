@@ -1,24 +1,26 @@
 /worldgrow
+├── help
 ├── info
 ├── next
 ├── border
-├── forcegrow
+├── reload
 │
+├── forcegrow
 ├── setsize <size>
 ├── setgrowth <amount>
 │
 ├── mode
-│   ├── time
-│   └── activity
-│
-├── time
-│   └── set <hour> <minute>
+│   ├── activity
+│   └── time
 │
 ├── activity
 │   ├── hours <hours>
 │   ├── minutes <minutes>
 │   ├── seconds <seconds>
 │   └── maxspeed <multiplier>
+│
+├── time
+│   └── set <hour> <minute>
 │
 └── discord
     ├── on
